@@ -1,1 +1,1 @@
-docker-compose exec proxy nginx -t
+docker compose exec proxy nginx -t

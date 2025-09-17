@@ -25,6 +25,6 @@ server {
         server_name scim-idp.openproject-edge.com;
 
         location / {
-                proxy_pass http://keycloak:3000;
+                proxy_pass http://keycloak:8080;
         }
 }
